@@ -1,96 +1,162 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-  <head>
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<link rel="bookmark"  type="image/x-icon"  href="/img/logo_miccall.png"/>
+	<link rel="shortcut icon" href="/img/logo_miccall.png">
+	
+			    <title>
+    深美艺术考研
+    </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="/css/mic_main.css" />
+    <link rel="stylesheet" href="/css/dropdownMenu.css" />
+    <meta name="keywords" content="miccall" />
     
+    	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+	 
+    <noscript>
+        <link rel="stylesheet" href="/css/noscript.css" />
+    </noscript>
+    <style type="text/css">
+        body:before {
+          content: ' ';
+          position: fixed;
+          top: 0;
+          background: url('/img/bg.jpg') center 0 no-repeat;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background-size: cover; 
+        }
+    </style>
 
-<script>!function(){var e=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,t=localStorage.getItem("use-color-scheme")||"auto";("dark"===t||e&&"light"!==t)&&document.documentElement.classList.toggle("dark",!0)}()</script>
-
-<meta charset="utf-8" >
-
-<title>数据安全之敏感数据的保存和传输</title>
-<meta name="keywords" content="数据安全之敏感数据的保存和传输, charl&#39;s blog">
-<meta name="description" content="简介​近几年全球范围内出现了很多起数据安全事件，下面举几个影响比较大的栗子。
-
-2021年7月，滴滴因严重违法违规采集使用个人信息被全网下架。
-2020年3月，国内万豪酒店近500万房客个人信息被泄露，包含：姓名、地址、email、开房记录">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="/favicon.ico">
-<link rel="stylesheet" href="/style/main.css">
-
-
-<link rel="stylesheet" href="/style/jquery.fancybox.min.css">
-
-
-
-
-
-
-
-  <meta name="generator" content="Hexo 5.4.2"></head>
-  <body>
-    <div id="app" class="main">
-
-<div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://charl66.github.io">
-        <img class="avatar" src="/images/avatar.png" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://charl66.github.io">
-        <h1 class="site-title">charl&#39;s blog</h1>
-      </a>
-    </div>
-    <div class="right">
-        <i class="icon menu-switch icon-menu-outline" ></i>
-    </div>
-  </div>
-</div>
-
-<div class="menu-container" style="height: 0;opacity: 0;">
-<nav class="menu-list">
+			    
   
-    
-      <a href="/" class="menu purple-link">
-        首页
-      </a>
-    
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script async type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
   
+
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.scrollex.min.js"></script>
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/util.js"></script>
+    <script src="/js/main.js"></script>
+	
+<meta name="generator" content="Hexo 5.4.2"></head>
     
-      <a href="/tags" class="menu purple-link">
-        标签
-      </a>
-    
-  
-    
-      <a href="/archives" class="menu purple-link">
-        归档
-      </a>
-    
-  
-    
-      <a href="/about" class="menu purple-link">
-        关于
-      </a>
-    
-  
+		
+<!-- Layouts -->
+
+
+
+<!--  代码渲染  -->
+<link rel="stylesheet" href="/css/prism_coy.css" />
+<link rel="stylesheet" href="/css/typo.css" />
+<!-- 文章页 -->
+<body class="is-loading">
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <header id="header">
+    <a href="/" class="logo">MICCALL</a>
+</header>
+        <!-- Nav 导航条 start -->
+        <nav id="nav" class="special" >
+            <ul class="menu links" >
+			<!-- Homepage  主页  --> 
+			<li >
+	            <a href="/" rel="nofollow">主页</a>
+	        </li>
+			<!-- categories_name  分类   --> 
+	        
+	        <li class="active">
+	            <a href="#s1">分类</a>
+	                    <ul class="submenu">
+	                        <li>
+	                        
+	                    </ul>
+	        </li>
+	        
+	        <!-- archives  归档   --> 
+	        
+	        
+		        <!-- Pages 自定义   -->
+		        
+		        <li>
+		            <a href="/about/" title="简历">
+		                简历
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/group/" title="团队">
+		                团队
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/gallery/" title="图库">
+		                图库
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/tag/" title="标签">
+		                标签
+		            </a>
+		        </li>
+		        
+
+
+            </ul>
+            <!-- icons 图标   -->
+			<ul class="icons">
+                    
+                    <li>
+                        <a title="github" href="https://github.com/miccall" target="_blank" rel="noopener">
+                            <i class="icon fa fa-github"></i>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a title="500px" href="http://500px.com" target="_blank" rel="noopener">
+                            <i class="icon fa fa-500px"></i>
+                        </a>
+                    </li>
+                    
+			</ul>
 </nav>
-</div>
 
-
-
-  <div class="content-container">
-    <div class="post-detail">
-      
-      <h2 class="post-title">数据安全之敏感数据的保存和传输</h2>
-      <div class="post-info post-detail-info">
-        <span><i class="icon icon-calendar-outline"></i> 2022-12-01</span>
-        
-      </div>
-      <div class="post-content-wrapper">
-        <div class="post-content">
-          <h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>​近几年全球范围内出现了很多起数据安全事件，下面举几个影响比较大的栗子。</p>
+        <div id="main" >
+            <div class ="post_page_title_img" style="height: 25rem;background-image: url();background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >数据安全之敏感数据的保存和传输</h2></a>
+            </div>
+            <!-- Post -->
+            <div class="typo" style="padding: 3rem;">
+                <h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>​近几年全球范围内出现了很多起数据安全事件，下面举几个影响比较大的栗子。</p>
 <ul>
 <li>2021年7月，滴滴因严重违法违规采集使用个人信息被全网下架。</li>
 <li>2020年3月，国内万豪酒店近500万房客个人信息被泄露，包含：姓名、地址、email、开房记录等。 </li>
@@ -150,67 +216,108 @@
 <p>可以得出BCryptPasswordEncoder加密的的特点：<br>● 我们调用BCryptPasswordEncoder的encode、matches方法进行哈希、做密码比对的时候，不需要传入盐。BCrypt把盐作为了算法的一部分，强制我们遵循安全保存密码的最佳实践。<br>● ⽣成的盐和哈希后的密码拼在了⼀起：$是字段分隔符，其中第⼀个$后的 2a 代表算 法版本，第⼆个$后的 10 是代价因⼦（默认是 10，代表 2 的 10 次⽅次哈希），第三个$后 的 22 个字符是盐，再后⾯是摘要。所以说，我们不需要使⽤单独的数据库字段来保存盐。<br>● 代价因⼦的值越⼤，BCrypt 哈希的耗时越久。因此，对于代价因⼦的值，更建议的实践是，根据⽤户的忍耐程度和硬件，设置⼀个尽可能⼤的值。 </p>
 <p>​最后，我们需要注意的是，虽然⿊客已经很难通过彩虹表来破解密码了，但是仍然有可能暴⼒破解密码，也就是对于同⼀个⽤户名使⽤常⻅的密码逐⼀尝试登录。因此，除了做好密码哈希保存的⼯作外，我们还要建设⼀套完善的安全防御机制，在感知到暴⼒破解危害的时候，开启短信验证、图形验证码、账号暂时锁定等防御机制来抵御暴⼒破解。</p>
 
-        </div>
-        <div class="top-div">
-          <ol class="top-box"><li class="top-box-item top-box-level-1"><a class="top-box-link" href="#%E7%AE%80%E4%BB%8B"><span class="top-box-text">简介</span></a></li><li class="top-box-item top-box-level-1"><a class="top-box-link" href="#%E5%A6%82%E4%BD%95%E4%BF%9D%E5%AD%98%E7%94%A8%E6%88%B7%E5%AF%86%E7%A0%81"><span class="top-box-text">如何保存用户密码</span></a><ol class="top-box-child"><li class="top-box-item top-box-level-2"><a class="top-box-link" href="#MD5%E5%8A%A0%E5%AF%86%E8%A1%8C%E4%B8%8D%E8%A1%8C"><span class="top-box-text">MD5加密行不行</span></a></li><li class="top-box-item top-box-level-2"><a class="top-box-link" href="#%E5%A4%9A%E6%AC%A1MD5%E8%A1%8C%E4%B8%8D%E8%A1%8C"><span class="top-box-text">多次MD5行不行</span></a></li><li class="top-box-item top-box-level-2"><a class="top-box-link" href="#MD5%E5%8A%A0%E7%9B%90%E4%BF%9D%E5%AD%98%E5%AF%86%E7%A0%81"><span class="top-box-text">MD5加盐保存密码</span></a></li><li class="top-box-item top-box-level-2"><a class="top-box-link" href="#%E4%BF%9D%E5%AD%98%E5%AF%86%E7%A0%81%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF"><span class="top-box-text">保存密码的正确姿势</span></a></li></ol></li></ol>
-        </div>
-      </div>
-    </div>
+            </div>
 
-    
-  </div>
+            <!-- Post Comments -->
+            
+    <!-- 使用 DISQUS_CLICK -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
 
-
-
-
-<footer>
-<div class="site-footer">
-  <div class="social-container">
-    
-      
-        <a href="https://github.com/f-dong" target="_blank">
-          <i class="icon icon-github"></i>
-        </a>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  
-    Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> <a href="https://github.com/f-dong/hexo-theme-minimalism" target="_blank">Theme</a>
-  
-  
-  
-  
-  
-  
+<!-- add animation -->
+<style>
+	.disqus_click_btn {
+            line-height: 30px;
+            margin: 0;
+            min-width: 50px;
+            padding: 0 14px;
+            display: inline-block;
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0;
+            overflow: hidden;
+            will-change: box-shadow;
+            transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1), background-color .2s cubic-bezier(.4, 0, .2, 1), color .2s cubic-bezier(.4, 0, .2, 1);
+            outline: 0;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            vertical-align: middle;
+            border: 0;
+            background: rgba(158, 158, 158, .2);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+            color: #fff;
+            background-color: #7EC0EE;
+            text-shadow: 0
+        }
+</style>
+	
+<div class="btn_click_load" id="disqus_bt"> 
+    <button class="disqus_click_btn">点击查看评论</button>
 </div>
-</footer>
+
+<!--
+<script type="text/javascript">
+$('.btn_click_load').click(function() {
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'http-miccall-tech'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    document.getElementById('disqus_bt').style.display = "none";
+});
+</script>
+-->
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'https://charl66.github.io/2022/12/01/%E6%95%B0%E6%8D%AE%E5%AE%89%E5%85%A8%E4%B9%8B%E6%95%8F%E6%84%9F%E6%95%B0%E6%8D%AE%E7%9A%84%E4%BF%9D%E5%AD%98%E5%92%8C%E4%BC%A0%E8%BE%93/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'https://charl66.github.io/2022/12/01/%E6%95%B0%E6%8D%AE%E5%AE%89%E5%85%A8%E4%B9%8B%E6%95%8F%E6%84%9F%E6%95%B0%E6%8D%AE%E7%9A%84%E4%BF%9D%E5%AD%98%E5%92%8C%E4%BC%A0%E8%BE%93/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+
+<script type="text/javascript">
+    $('.btn_click_load').click(function() {  //click to load comments
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document;
+            var s = d.createElement('script');
+            s.src = '//http-miccall-tech.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', + new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+        $('.btn_click_load').css('display','none');
+    });
+</script>
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
 
 
-      </div>
-      
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/jquery.fancybox.min.js"></script>
-
-
-
-    <script>window.is_post = true;</script>
-
-
-<script src="/js/main.js"></script>
-
-
-
-
-
+        </div>
+        <!-- Copyright 版权 start -->
+                <div id="copyright">
+            <ul>
+                <li>&copy;Powered By <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/" style="border-bottom: none;">hexo</a></li>
+                <li>Design: <a target="_blank" rel="noopener" href="http://miccall.tech " style="border-bottom: none;">miccall</a></li>
+            </ul>
+            
+                <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+			
+        </div>
     </div>
-  </body>
-</html>
+</body>
 
+
+
+ 	
+</html>
